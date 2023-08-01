@@ -27,19 +27,27 @@ return {
   },
   insert = {
     a = {fg = colors.fg, bg = colors.bg, gui = 'bold'},
-    b = {fg = colors.fg, bg = colors.bg, gui = 'bold'},
-    c = {fg = colors.fg, bg = colors.bg, gui = 'bold'},
+    b = {fg = colors.fg, bg = colors.bg},
+    c = {fg = colors.fg, bg = colors.bg},
   },
   visual = {
     a = {fg = colors.fg, bg = colors.bg_visual, gui = 'bold'},
-    b = {fg = colors.fg, bg = colors.bg_visual, gui = 'bold'},
-    c = {fg = colors.fg, bg = colors.bg_visual, gui = 'bold'},
+    b = {fg = colors.fg, bg = colors.bg_visual},
+    c = {fg = colors.fg, bg = colors.bg_visual},
   },
-  command = {a = {fg = colors.fg, bg = colors.bg_command, gui = 'bold'}},
-  replace = {a = {fg = colors.fg, bg = colors.bg_command, gui = 'bold'}},
+  command = {
+      a = {fg = colors.fg, bg = colors.bg_command, gui = 'bold'},
+      b = {fg = colors.fg, bg = colors.bg_command},
+      c = {fg = colors.fg, bg = colors.bg_command},
+  },
+  replace = {
+      a = {fg = colors.fg, bg = colors.bg_command, gui = 'bold'},
+      b = {fg = colors.fg, bg = colors.bg_command},
+      c = {fg = colors.fg, bg = colors.bg_command},
+  },
   inactive = {
     a = {fg = colors.fg, bg = colors.bg_inactive},
     b = {fg = colors.fg, bg = colors.bg_inactive},
-    c = {fg = colors.fg, bg = colors.bg_inactive}
+    c = {fg = colors.fg, bg = colors.bg_inactive},
   }
 }
